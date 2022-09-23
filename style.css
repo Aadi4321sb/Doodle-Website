@@ -1,0 +1,37 @@
+#body1{
+    background-image: linear-gradient(-45deg, #FFC796 0%, #FF6B95 100%);
+}
+h1{
+    font-family: 'Bungee Spice', cursive;
+    color:gold;
+    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+#show_sketch {
+    float: right;
+    background-color: antiquewhite;
+    stroke: antiquewhite;
+}
+p {
+    padding-top: 10px;
+    font-size: 25px;
+    font-family: 'Monoton', cursive;
+    color: gold;
+    background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+    font-weight:lighter;
+}
+canvas {
+    border: 5px solid white;
+    border-radius: 40px;
+    animation-name: Fading;
+    animation-duration: 10s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+@keyframes Fading {
+    from {box-shadow: 1px 1px 75px grey;}
+    to {box-shadow: 1px 1px 75px white;}
+}
+#clearcanvasbutton{
+    background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+    font-family: 'Josefin Sans', sans-serif;
+}
